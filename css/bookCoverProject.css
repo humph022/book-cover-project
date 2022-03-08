@@ -52,6 +52,7 @@ body {
   top: 34%;
   left: 50%;
   transform: translate(-50%, -50%);
+  animation: blinking_dot 1s infinite ease-in-out;
 }
 
 .lid {
@@ -74,6 +75,19 @@ body {
 }
 
 .eye:hover .lid span {
-  /* height: 50%; */
-  height: 100%;
+  height: 50%;
+  /* height: 100%; */
+}
+
+#title {
+  top: 30px;
+}
+
+@keyframes blinking_dot {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
