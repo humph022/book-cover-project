@@ -21,7 +21,7 @@ body {
   background: white;
   position: absolute;
   overflow: hidden;
-  top: 40%;
+  top: 42%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
   border: 1px solid black;
@@ -79,8 +79,31 @@ body {
   /* height: 100%; */
 }
 
+.author {
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/author.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 5;
+  top: 0px;
+  left: 0px;
+  /* max-width: 100%; */
+}
+
 #title {
-  top: 30px;
+  top: 80px;
+}
+
+#title-graphic {
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
 }
 
 @keyframes blinking_dot {
